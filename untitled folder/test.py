@@ -1,7 +1,4 @@
-print('hello world')
+import numpy
 
-# x = 2
-
-# print(x)
-
-y = 2
+test = [x for x in range(0, 10) if x % 2 == 0]
+print(test)
